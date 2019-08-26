@@ -1,0 +1,6 @@
+{
+    "require": {
+        "justinrainbow/json-schema": "^5.2",
+        "php-jsonpointer/php-jsonpointer": "^3.0"
+    }
+}
