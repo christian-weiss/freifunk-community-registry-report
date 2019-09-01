@@ -72,3 +72,6 @@ fabric.properties
 /cron/temp/communication.details
 /cron/temp/communication.log
 /cron/jsonSchema/*.json
+
+# ignore config file
+/cron/config.php

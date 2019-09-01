@@ -38,7 +38,7 @@ INVALID JSON: <?php echo PHP_EOL ?>
 <?php foreach ($this->_invalidJson["invalidData"] as $city => $nbrError) { ?>
 City '<?php echo $city ?>': <?php echo count($nbrError) ?><?php echo PHP_EOL ?>
 <?php } ?>
-Total: <?php echo $this->getNbrOfInvalidCities() ?><?php echo PHP_EOL ?>
+Total: <?php echo $this->getNbrOfFailedSchemaValidations() ?><?php echo PHP_EOL ?>
 
 API VERIONS: <?php echo PHP_EOL ?>
 <?php foreach ($this->getReport()->apiVersions as $version => $nbrCommunities) { ?>
