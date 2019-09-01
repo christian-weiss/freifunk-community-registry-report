@@ -11,12 +11,20 @@ class ComposerStaticInitedba3253db2c9c807bb06e9213e0c23a
         array (
             'JsonSchema\\' => 11,
         ),
+        'F' => 
+        array (
+            'Freifunk\\' => 9,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'JsonSchema\\' => 
         array (
             0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
+        ),
+        'Freifunk\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/lib/Freifunk',
         ),
     );
 

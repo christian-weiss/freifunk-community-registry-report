@@ -17,7 +17,6 @@ namespace Freifunk;
  */
 class ReportDataDto
 {
-    public $citiesTotal = 0;
     public $endpointsTotal = 0;
     public $endpointsSecure = 0;
     public $endpointsInsecure = 0;
@@ -26,13 +25,22 @@ class ReportDataDto
     public $redirects301 = 0;
     public $redirects302 = 0;
     public $responseOk = 0;
+    public $responseNotOk = 0;
     public $responseBadFinals = array();
+    public $responseTotalFinals = array();
     public $responsesEmpty = 0;
     public $responsesNotEmpty = 0;
+    public $responseSameCities = array();
     public $responseSame = 0;
     public $responseUnique = 0;
     public $responseInvalidFormat = 0;
     public $responseValidFormat = 0;
     public $apiVersions = array();
     public $connectionIssues = array();
+    public $registryDownloadable = false;
+    public $registryInvalid = true;
+    public $nbrEndpoints;
+    public $nbrCities;
+    public $endpointsConnectionFailed;
+    public $endpointsConnectionNotFailed = 0;
 }
